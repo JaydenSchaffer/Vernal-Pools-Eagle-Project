@@ -1,0 +1,85 @@
+/* Layout styles go here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+#topnav {
+  display: flex;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  padding-left: 10px;
+  width: 100%; /* Full width */
+}
+
+/* Style the topnav links */
+#topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+#topnav a:hover:not(.activepage) {
+  background-color: #ddd;
+  color: black;
+}
+
+/* indicate active page on nav */
+#topnav a.activepage {
+  background-color: #4CAF50;
+}
+
+/* Style the header */
+#header {
+  margin-top: 46px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side25 {
+  flex-basis: 25%;
+}
+
+/* Middle column */
+.column.middle50 {
+  flex-basis: 50%;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Style the footer */
+#footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
