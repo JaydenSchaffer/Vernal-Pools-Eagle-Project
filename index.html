@@ -7,49 +7,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+		integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+		crossorigin="anonymous"> </script>
 </head>
 
 <body>
-	<div id="topnav">
-		<a class="activepage" href="index.html">Home</a>
-		<a href="pages/page1.html">Page 1</a>
-		<a href="pages/page2.html">Page 2</a>
-		<a href="pages/page3.html">Page 3</a>
-	</div>
+	<header>
+		<nav id="topnav">
+			<a class="activepage" href="index.html">Home</a>
+			<a href="pages/page1.html">Page 1</a>
+			<a href="pages/page2.html">Page 2</a>
+			<a href="pages/page3.html">Page 3</a>
+		</nav>
+	</header>
 
-	<div id="header">
-		<h1>Home Header</h1>
-		<p>Resize the browser window to see the responsive effect.</p>
-	</div>
+	<main>
+		<section id="hero">
+			<h1>Home Header</h1>
+			<p>Resize the browser window to see the responsive effect.</p>
+		</section>
 
-	<div class="row">
-    
-		<div class="column side25">
-			<h2>Side</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-		</div>
+		<section id="first-row" class="row">
+			<div class="column side25">
+				<h2>Side</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+			</div>
 
-		<div class="column middle50">
-			<h2>Main Content</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec
-				neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
-				eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec
-				neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
-				eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-		</div>
+			<div class="column middle50">
+				<h2>Main Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+					neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+					eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+					neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+					eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
 
-		<div class="column side25">
-			<h2>Side</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-		</div>
+			<div class="column side25">
+				<h2>Side</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+			</div>
+		</section>
+	</main>
 
-	</div>
-
-	<div id="footer">
+	<footer id="footer">
 		<p>Footer</p>
-	</div>
+	</footer>
 
 </body>
-
 </html>
