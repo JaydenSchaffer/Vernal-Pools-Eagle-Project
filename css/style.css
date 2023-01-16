@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #8b0000;
+    background-color: rgb(31, 160, 14);
     padding: 2em;
 }
 
@@ -24,7 +24,7 @@ header p {
 
 /* Footer styles */
 footer {
-    background-color: #8b0000;
+    background-color: rgb(31, 160, 14);
     padding: 1em;
     font-size: 0.8em;
 }
