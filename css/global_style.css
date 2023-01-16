@@ -30,9 +30,10 @@ header {
     top: 0;
     width: 100%;
 
-	background-image: url("reference/vernalpool_v1.jpg");
+    background-image: url("/reference/vernalpool_v1.jpg");
+
     /*background-color: #1fa00e;*/
-    /*padding: 0.5em;*/ /* Change this if adding header contents */
+    padding: 0.5em; /* Change this if adding header contents */
 }
 
 /* Footer styles */
