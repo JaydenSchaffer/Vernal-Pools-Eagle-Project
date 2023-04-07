@@ -1,25 +1,24 @@
 
 /* basic setup */
-h1 { font-weight: bold; font-size: 2rem; margin-bottom: 1rem; }
-h2 { font-weight: bold; font-size: 1.5rem; }
-p { margin-bottom: 2rem; }
+h1 { font-weight: bold; font-size: 2em; margin-bottom: 1rem; }
+h2 { font-weight: bold; font-size: 1.5em; }
+p { margin-bottom: 2rem;}
 em { font-style: italic; }
 
 html { 
-    font-size: 15px; 
     width: 100%;
     background-color: #fffaf0;
 }
 
 main {
-    padding: 2rem;
-    margin-top: 75px;
-    width: 90%;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
     max-width: 900px;
 }
 
 body {
-  font: 1.5rem Arial, sans-serif;
+  font: 1em Arial, sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -41,20 +40,20 @@ footer {
     width: 100%;
 
     background-color: #1fa00e;
-    padding: 1em 1em 1.5em;
-    font-size: 0.8em;
+    padding: 1rem 1rem 1.5rem;
+    font-size: 1em;
 }
 
 footer p {
     color: #fffaf0;
-    margin: 0em;
+    margin: 0rem;
 }
 
 
 /* info section styles */
 
 .info-section { 
-    padding: 0.5em 2em;
+    padding: 0.5rem 2rem;
     background-color: #fffaf0;
 }
 
