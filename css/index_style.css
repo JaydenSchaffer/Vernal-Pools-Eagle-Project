@@ -2,7 +2,7 @@
     background: url("../reference/PoolPic1.jpg") no-repeat center/cover;
     text-align: center;
     color: #fffaf0;
-    text-shadow: 0 0 10px #1fa00e; /* Shadow for better visibility? */
+    text-shadow: 0 0 15px #1fa00e; /* Shadow for better visibility? */
     overflow: auto;
     width: 100%;
     height: 30em;
